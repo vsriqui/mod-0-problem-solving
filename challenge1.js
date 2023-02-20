@@ -56,16 +56,30 @@ for (i=0; i<sortedTravelDestinationArray.length; i++) {
 // For example, if you were given "Turing is the best", 
 // return "Turing Is The Best" instead!
 
-var sentence = ("turing is the best");
-var sentenceArray = sentence.split(" ");
+var sentenceTuring = ("turing is the best");
+// Did it with just a for loop
+// var sentenceArray = sentence.split(" ");
 
 
+// for (i=0; i<sentenceArray.length; i++) {
+//     sentenceArray[i] = sentenceArray[i][0].toUpperCase()+sentenceArray[i].slice(1);   
+// }
+
+// var sentenceArrayComplete = sentenceArray.join(" ");
+// console.log(sentenceArrayComplete);
+
+// As a function that can print any sentence.
+
+var sentenceBaloney = ("i really like baloney")
+
+function sentenceArrayComplete2(sent1) {
+var sentenceArray = sent1.split(" ");
 for (i=0; i<sentenceArray.length; i++) {
     sentenceArray[i] = sentenceArray[i][0].toUpperCase()+sentenceArray[i].slice(1);   
 }
-
 var sentenceArrayComplete = sentenceArray.join(" ");
-console.log(sentenceArrayComplete);
+return sentenceArrayComplete
+}
 
-
+console.log(sentenceArrayComplete2(sentenceTuring));
 
