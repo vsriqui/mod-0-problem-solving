@@ -8,7 +8,7 @@ var petArray1 = ["bunnies", "rabbits", "moles", "dogs", "cats", "gerbils"];
 
 for (i = 0; i < petArray1.length; i++) {
     if (petArray1[i].length === 4) {
-    console.log(`Only 4 characters returned! ${petArray1[i]}`);
+        console.log(`Only 4 characters returned! ${petArray1[i]}`);
     }
 
 }

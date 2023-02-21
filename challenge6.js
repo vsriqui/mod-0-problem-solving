@@ -29,11 +29,11 @@ var sentenceBaloney = ("i really like baloney");
 
 function sentenceArrayComplete2(sent1) {
     var sentenceArray = sent1.split(" ");
-    for (i=0; i<sentenceArray.length; i++) {
-    sentenceArray[i] = sentenceArray[i][0].toUpperCase()+sentenceArray[i].slice(1);   
-    }
+        for (i=0; i<sentenceArray.length; i++) {
+            sentenceArray[i] = sentenceArray[i][0].toUpperCase()+sentenceArray[i].slice(1);   
+        }
     var sentenceArrayComplete = sentenceArray.join(" ");
-    return sentenceArrayComplete
+    return sentenceArrayComplete;
 }
 
 console.log(sentenceArrayComplete2(sentenceTuring));

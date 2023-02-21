@@ -21,10 +21,10 @@ var otherTArray = ["Texas", "tulip", "Telluride", "tongs"];
 
 function tBeginOnly(array) {
     for (i = 0; i<array.length; i++) {
-    if (array[i].startsWith("t")) {
-    console.log(`Starts with a lower case 't'! ${array[i]}`)
+        if (array[i].startsWith("t")) {
+            console.log(`Starts with a lower case 't'! ${array[i]}`);
+        }
     }
-    }
-  return array
+    return array;
 }
 tBeginOnly(otherTArray);

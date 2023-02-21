@@ -8,6 +8,6 @@ var includesIngMaybe = ["Smiling", "Going", "Running", "JumpINg", "Throws"];
 
 for (i=0; i<includesIngMaybe.length; i++) {
     if (includesIngMaybe[i].includes("ing")) {
-    console.log(`The word includes "ing", in a case sensitive way! ${includesIngMaybe[i]}`);
+        console.log(`The word includes "ing", in a case sensitive way! ${includesIngMaybe[i]}`);
     }
 }
